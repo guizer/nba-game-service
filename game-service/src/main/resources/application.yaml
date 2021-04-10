@@ -1,0 +1,12 @@
+server:
+  port: 2000
+
+spring:
+  http:
+    converters:
+      preferred-json-mapper: gson
+  data:
+    mongodb:
+      database: game_service
+      port: 27017
+      host: localhost

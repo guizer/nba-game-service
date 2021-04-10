@@ -1,0 +1,4 @@
+rootProject.name = 'nba-game-service'
+include 'live-statistics-service'
+include 'game-service'
+include 'common'
